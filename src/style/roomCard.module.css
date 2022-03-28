@@ -39,7 +39,7 @@
 
 .roomMembers>div:first-child {
     position: relative;
-    margin: 2em;
+    margin: 1em 3em 2em 1em;
 }
 
 .roomMembers>div:first-child>img:nth-child(2) {

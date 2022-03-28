@@ -7,7 +7,6 @@ const RoomInforCard = props => {
     console.log(data);
     return (
         <>
-            <h1>Room Info</h1>
             {data.map(item => (
                 <div>
                     <div>
