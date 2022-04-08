@@ -8,6 +8,7 @@ import { AiOutlinePlus } from 'react-icons/ai'
 import { BsGrid3X3Gap } from "react-icons/bs"
 import data from '../data/roomCard.json'
 import BottomSheet from "../component/BottomSheet";
+import newRoomData from "../data//newRoom.json";
 
 const Home = props => {
     const [itemsVisible, setItemsVisible] = useState(true);
@@ -52,6 +53,13 @@ const Home = props => {
                     }, 1000)
                 }}
 
+            />
+            <BottomSheet
+                sheetTitle="new room"
+                setSheetVisible={(item) => setSheetCreateRoom(item)}
+                sheetVisible={sheetCreateRoom}
+                cardDetail={newRoomData}
+                setItemsVisible={(item) => setItemsVisible(item)}
             />
         </AppLayout>
     )
