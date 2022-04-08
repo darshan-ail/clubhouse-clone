@@ -6,7 +6,7 @@ const StartRoom = props => {
     const [room, setRoom] = useState("open");
     return (
         <>
-            <div className={style.switchLine}></div>
+            <div className={style.switchLine} ></div>
             <div className="text-right" style={{ textAlign: "right" }}>
                 <button className={style.addTopicBtn}>+ Add a topic</button>
             </div>
