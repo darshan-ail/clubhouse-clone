@@ -18,7 +18,7 @@ const Welcome = (props) => {
                 </p>
             </div>
             <div className={style.actionBtn}>
-                <Link exact to='/get_username' className="primaryBtn d-flex align items-center mb-3">
+                <Link exact to='/invite' className="primaryBtn d-flex align items-center mb-3">
                     Get your username {" "}
                 </Link>
                 <Link to='/invite'>
