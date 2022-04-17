@@ -5,7 +5,7 @@ import style from '../style/header.module.css';
 const Header = props => {
     return (
         <div className={style.header}>
-            <Link exact to="/expore">
+            <Link exact to="/explore">
                 <img src="/images/search.png" alt="" />
             </Link>
             <div className={style.navItems}>

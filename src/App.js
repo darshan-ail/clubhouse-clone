@@ -7,6 +7,7 @@ import CodeConfirm from './pages/CodeConfirm';
 import AllowNotification from './pages/AllowNotification';
 import AppLayout from './pages/Layouts/AppLayout';
 import Home from './pages/Home';
+import Explore from './pages/Explore';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/code_confirm' element={<CodeConfirm />} />
         <Route exact path='/allow_notification' element={<AllowNotification />} />
         <Route path='/home' element={<Home />} />
+        <Route path='/explore' element={<Explore />} />
       </Routes>
       {/* <Routes path='/' element={<AppLayout />} >
         <Route path='/home' element={<Home />} />
